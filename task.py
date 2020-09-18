@@ -9,7 +9,6 @@ import youtubeHandler
 
 def runTask():
     userPath = os.environ["HOME"] + '/.oshiraserc'  
-    print(userPath)
     youtube = readLines(userPath)
     for youtuber in youtube:
         print(youtuber)
