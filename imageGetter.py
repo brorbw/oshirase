@@ -28,6 +28,5 @@ def downloadImage(username, url):
     file.close()
     return imagePath
 
-        
 if __name__ == "imageGetter":
     __init__()

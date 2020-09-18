@@ -2,6 +2,7 @@
 import os
 import re
 import sys
+import task
 
 import daemon as Daemon
 
@@ -14,6 +15,8 @@ def main():
     if daemon:
         myDaemon = Daemon.Daemon(os.getpid())
         myDaemon.start()
+    else:
+        task.runTask()
     
 
 if __name__ == '__main__':
