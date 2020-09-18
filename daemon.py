@@ -123,5 +123,8 @@ class Daemon:
 
     def run(self):
         while 1:
-            task.runTask()
-            time.sleep(600)
+            try:
+                task.runTask()
+                time.sleep(10)
+            except:
+                pass
