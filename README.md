@@ -5,7 +5,7 @@ Silly project that gives you gnome notifications when a youtuber submits new con
 
 Add a list of youtuber names to a file `.oshiraserc`. The names should be taken from `https://youtube.com/c/<YOUTUBER NAME>/videos`
 
-the list should look something like this
+The file should look something like this
 
 ```
 pewdiepie
