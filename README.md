@@ -27,7 +27,7 @@ or when you want it to run
 PYTHONHASHSEED=0 python main.py
 ```
 
-This is still under active development and only works with gnome at the moment. Im working on a port to macOS and daemonizing it and making a pip package for it but everything takes time.
+This is still under active development and only works with gnome at the moment. Im working on a port to macOS and making a pip package for it but everything takes time.
 
 # Future goal
 
