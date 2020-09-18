@@ -11,7 +11,7 @@ def runTask():
     userPath = os.environ["HOME"] + '/.oshiraserc'  
     youtube = readLines(userPath)
     for youtuber in youtube:
-        print(youtuber)
+        print('Getting status for %s' % youtuber)
         checkLatestVideo(youtuber)
     
     
