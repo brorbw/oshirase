@@ -13,7 +13,7 @@ def main():
         if re.match('-d', arg) or re.match('--daemon', arg):
             daemon = True
     if daemon:
-        myDaemon = Daemon.Daemon(os.getpid())
+        myDaemon = Daemon.Daemon('/tmp/oshirase.pid')
         myDaemon.start()
     else:
         task.runTask()
