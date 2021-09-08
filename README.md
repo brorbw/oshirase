@@ -1,3 +1,7 @@
+# This is no longer under development
+
+------
+
 # Description
 
 I really hate notification in general and I do not allow my browser to give me any notifications. I would however like to get notified when a youtuber adds a new video.
